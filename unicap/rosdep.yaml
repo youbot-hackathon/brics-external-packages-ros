@@ -1,0 +1,19 @@
+sdl:
+  ubuntu: libsdl1.2-dev
+
+sdl-net:
+  ubuntu: libsdl-net1.2-dev
+
+unicap-lib:
+  ubuntu: |
+      if [ ! -f ./install/lib/libc_urg.a ] ; then
+        wget -nc --tries=10 http://unicap-imaging.org/downloads/libunicapgtk-0.9.8.tar.gz
+        tar -xf libunicapgtk-0.9.8.tar.gz
+        patch -d libunicapgtk-0.9.8 -i ./patches/patch-aa
+        install_path=`pwd`/install
+        cd libunicapgtk-0.9.8
+        ./configure --prefix=$install_path
+        make
+        make install
+      fi
+  
