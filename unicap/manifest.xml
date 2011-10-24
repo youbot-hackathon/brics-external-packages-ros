@@ -8,9 +8,6 @@
   <license>GPL-v2</license>
   <review status="unreviewed" notes=""/>
   <url>http://unicap-imaging.org/</url>
-  <rosdep name="sdl" />
-  <rosdep name="sdl-net" />
-	<rosdep name="unicap-lib" />
 </package>
 
 

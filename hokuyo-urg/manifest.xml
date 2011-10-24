@@ -10,7 +10,6 @@
   <url>http://www.hokuyo-aut.jp/02sensor/07scanner/download/urg_programs_en/</url>
   <rosdep name="sdl" />
   <rosdep name="sdl-net" />
-	<rosdep name="hokuyo-urg-lib" />
 </package>
 
 

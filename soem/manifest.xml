@@ -8,7 +8,6 @@
   <license>GPL-v2</license>
   <review status="unreviewed" notes=""/>
   <url>http://soem.berlios.de/</url>
-  <rosdep name="soem-lib" />
 </package>
 
 
