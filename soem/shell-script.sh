@@ -4,4 +4,6 @@ if [ ! -f ./SOEM1.2.5/src/ethercatconfiglist.h ] ; then
   tar -xf SOEM1.2.5.tar.bz2
   patch SOEM1.2.5/src/ethercatconfiglist.h -i patches/patch-aa
   patch SOEM1.2.5/src/nicdrv.c -i patches/patch-ab
+  mkdir src
+  cp SOEM1.2.5/src/* ./src
 fi

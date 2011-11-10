@@ -11,14 +11,14 @@ set(ROS_BUILD_SHARED_LIBS true)
 
 
 rosbuild_add_library(soem 
-	SOEM1.2.5/src/ethercatbase.c 
-  SOEM1.2.5/src/ethercatcoe.c 
-  SOEM1.2.5/src/ethercatconfig.c 
-  SOEM1.2.5/src/ethercatfoe.c 
-  SOEM1.2.5/src/ethercatsoe.c 
-  SOEM1.2.5/src/ethercatmain.c 
-  SOEM1.2.5/src/ethercatprint.c 
-  SOEM1.2.5/src/nicdrv.c 
-  SOEM1.2.5/src/ethercatdc.c
+	src/ethercatbase.c 
+  src/ethercatcoe.c 
+  src/ethercatconfig.c 
+  src/ethercatfoe.c 
+  src/ethercatsoe.c 
+  src/ethercatmain.c 
+  src/ethercatprint.c 
+  src/nicdrv.c 
+  src/ethercatdc.c
 )
 
